@@ -1,8 +1,10 @@
-import React from 'react'
+import NotFoundComponents from './components/NotFoundComponents'
 
 function page() {
   return (
-    <div>Subpage</div>
+    <div>
+      <NotFoundComponents/>
+    </div>
   )
 }
 
