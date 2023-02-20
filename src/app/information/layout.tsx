@@ -1,8 +1,8 @@
-import "./information.layout.scss"
+import cardLayoutStyles from "./information.layout.module.scss"
 
 function CardLayout({children}: {children: React.ReactNode}) {
   return (
-    <div className="information-layout">{children}</div>
+    <div className={cardLayoutStyles.informationlayout}>{children}</div>
   )
 }
 
