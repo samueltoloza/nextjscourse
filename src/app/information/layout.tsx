@@ -1,8 +1,9 @@
+import { firacode } from "../models"
 import cardLayoutStyles from "./information.layout.module.scss"
 
 function CardLayout({children}: {children: React.ReactNode}) {
   return (
-    <div className={cardLayoutStyles.informationlayout}>{children}</div>
+    <div className={`${firacode} ${cardLayoutStyles.informationlayout}`}>{children}</div>
   )
 }
 

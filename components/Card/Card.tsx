@@ -21,7 +21,7 @@ function Card({ data }: Props) {
         <p>Type: {formattedType}</p>
         <p>Created: {data.created}</p>
         {!!data.image && (
-          <Image width="100" height="100" src={data.image} alt='image' />
+          <Image width="100" height="100" src={data.image} alt='image' priority />
         )}
     </div>
   )
